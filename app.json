@@ -1,11 +1,11 @@
 {
   "expo": {
-    "name": "Food_App",
-    "slug": "Food_App",
-    "version": "1.0.0",
+    "name": "My Dorm Plate",
+    "slug": "myDormPlate",
+    "version": "1.0.5",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "myapp",
+    "scheme": "foodapp",
     "userInterfaceStyle": "automatic",
     "splash": {
       "image": "./assets/images/splash.png",
@@ -13,7 +13,8 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "package": "com.jsm.MyDormPlate",
+      "bundleIdentifier": "com.kraghavut.myDormPlate"
     },
     "android": {
       "adaptiveIcon": {
@@ -31,6 +32,14 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "c98a2680-32b3-4d8c-8206-edd95cd40e2b"
+      }
     }
   }
 }

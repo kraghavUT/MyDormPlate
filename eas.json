@@ -1,0 +1,24 @@
+{
+  "cli": {
+    "version": ">= 10.2.1"
+  },
+  "build": {
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal"
+    },
+    "preview": {
+      "distribution": "internal"
+    },
+    "production": {}
+  },
+  "submit": {
+    "production": {
+      "ios": {
+        "appleId": "raghavkalyanaraman@gmail.com",
+        "ascAppId": "6557047846",
+        "appleTeamId": "7GKM2UYLX2"
+      }
+    }
+  }
+}
